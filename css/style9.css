@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.example-container{
+    width: fit-content;
+    background-color: rgb(255, 215, 140);
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.number{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 145, 0);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.number-vezbanje{
+    width: fit-content;
+    padding: 15px;
+}
+.example{
+    width: 700px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    height: 300px;
+}
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 145, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note{
+    margin-top: 20px;
+}
+.example1{
+    justify-content: space-evenly;
+}
+.example2{
+    align-items: center;
+}
+.example3{
+    flex-direction: row-reverse;
+}
+.example4{
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,34 @@
+.back{
+  margin-top: 50px;
+}
+.nav-bg{
+  background-color: #0E1B4D;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.navbar{
+  padding: .7rem 0;
+}
+.cta-btn{
+  background-color: #F72249;
+  border: 3px solid #F72249;
+  border-radius: 100px;
+  color: white !important;
+  padding: 0.5rem 1.5rem !important;
+  margin-left: .5rem;
+  font-weight: 500;
+  transition: background-color 0.5s ease;
+}
+.cta-btn:hover{
+  background-color: transparent;
+}
+.nav-logo{
+  height: 40px;
+  width: auto;
+}
+.nav-bg .active{
+  border-bottom: 3px solid #F72249;
+}

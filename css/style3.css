@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: lightcoral;
+  margin-top: 30px;
+  margin-right: 80px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+h2{
+  background-color: lightseagreen;
+  margin: 50px;
+}
+
+button{
+  padding: 40px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: lightpink;
+  border: 4px solid purple;
+}
+img{
+  width: 60%;
+  height: auto;
+}
+.kartica{
+  background-color: lightblue;
+  width: 800px;
+  padding: 30px;
+  border: 5px solid blue;
+  margin: auto;
+  border-radius: 30px;
+}

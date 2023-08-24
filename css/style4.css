@@ -1,0 +1,26 @@
+h1{
+  color: darkgreen;
+  text-align: right;
+  text-decoration: line-through;
+}
+
+.paragraf{
+  text-align: center;
+}
+
+.artikl{
+  text-align: justify;
+  width: 20%;
+  direction: ltr;
+}
+
+a{
+  text-decoration: none;
+  background: rgb(195,7,211);
+  background: linear-gradient(90deg, rgba(195,7,211,1) 0%, rgba(71,88,210,1) 50%, rgba(32,217,255,1) 100%);
+  color: white;
+  margin: 10px;
+  padding: 15px;
+  border: 5px solid black;
+  border-radius: 10px;
+}

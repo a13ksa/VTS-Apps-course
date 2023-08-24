@@ -1,0 +1,35 @@
+.top{
+  vertical-align: top;
+}
+
+.middle{
+  vertical-align: middle;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 5px 5px 5px red;
+}
+
+h2{
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+
+h3{
+  text-transform: lowercase;
+  word-spacing: 20px;
+}
+
+.text{
+  text-indent: 10%;
+}
+
+.line1{
+  line-height: 20px;
+}
+
+.line2{
+  line-height: 0.5;
+}

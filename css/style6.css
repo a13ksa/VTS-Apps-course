@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  word-wrap: break-word;
+}
+
+body{
+  background-color: rgb(245, 245, 245);
+}
+
+.kartica {
+  width: 400px;
+  height: 80%;
+  padding: 20px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+}
+header h2 {
+  padding-bottom: 15px;
+}
+
+hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+h3 {
+  padding-top: 15px;
+}
+
+select {
+  margin-top: 15px;
+  color: #1a73e8;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+.review {
+  padding-bottom: 20px;
+}
+
+.code-for-embed {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.code-for-embed p {
+  font-family: "Courier Prime", monospace;
+}
+
+.labela {
+  padding: 15px 0px;
+}
+
+#css{
+  margin-left: 20px;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+footer a{
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+}
+
+.api{
+  color: #1A73E8;
+  border: 1px solid #1A73E8;
+  padding: 10px 0;
+  margin-right: 5px;
+}
+
+.download{
+ background-color: #1A73E8;
+ color: white;
+ padding: 10px 0;
+}
+i{
+  margin-right: 5px;
+}

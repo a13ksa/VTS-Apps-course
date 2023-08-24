@@ -1,0 +1,44 @@
+.speakers{
+  padding-top: 60px;
+}
+.speakers-title h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+.speakers-title h5{
+  font-weight: 400;
+  text-align: center;
+  color: #9195a2;
+  margin-bottom: 20px;
+}
+.speakers-title .custom-hr{
+  height: 5px;
+  width: 60px;
+  margin: auto;
+  background-color: #F72249;
+}
+.speakers img{
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.card{
+  border: none !important;
+  margin-top: 20px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  background-color: #0e1b4dcc;
+  color: white;
+  padding: 10px 0;
+  margin-top: -76px;
+  z-index: 2;
+}
+.card-content h6{
+  font-size: 20px;
+  text-align: center;
+}
+.card-content i{
+  text-align: center;
+}

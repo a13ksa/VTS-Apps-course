@@ -1,0 +1,49 @@
+#naslov{
+  background-color: red;
+}
+.tekst{
+  color: white;
+  border: 5px dotted black;
+}
+.naslov{
+  color: chartreuse;
+  background-color: rgb(2, 67, 5);
+  border: 3px solid red;
+}
+.container{
+  display: flex;
+}
+.cas{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .cas{
+    flex-wrap: wrap;
+  }
+}
+.btn{
+  border-radius: 10px;
+}
+.btn-group-vertical{
+  gap: 10px;
+  margin-top: 5px;
+}
+.btn-group-vertical > .btn:not(:first-child) {
+  border-radius: 10px;
+}
+.btn-group-vertical>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 10px;
+}
+.d-sm-flex{
+  gap: 10px;
+}
+.blue{
+  color: #007bff;
+  font-weight: 600;
+}
+.green{
+  color: #28a745;
+  font-weight: 600;
+}

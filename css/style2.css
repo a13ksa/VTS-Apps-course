@@ -1,0 +1,23 @@
+body{
+  background-image: url(../slike/natur-erleben-1-1920x1200.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.input-polje{
+  background-color: lightcoral;
+  border: 4px solid rgb(187, 69, 27);
+  color: red;
+}
+
+button{
+  background-color: lightblue;
+  border: 5px solid blue;
+  color: blue;
+}
+
+mark{
+  background-color: aqua;
+}

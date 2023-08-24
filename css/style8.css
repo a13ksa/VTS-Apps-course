@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background-color: #588eff;
+}
+.glavna-kartica {
+  width: 400px;
+  background-color: white;
+  padding: 45px;
+  border-radius: 20px;
+  margin-left: 50%;
+  margin-top: 50px;
+  transform: translate(-50%);
+}
+img {
+  width: 200px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+h1 {
+  font-weight: 400;
+  color: #61616d;
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: #89899a;
+  margin-bottom: 20px;
+}
+.input-grupa input {
+  color: #89899a;
+  padding: 10px 20px;
+  border: 1px solid #eceaf6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.unos{
+  width: 100%;
+}
+label{
+  color: #61616d;
+}
+
+.buttons button{
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+#login{
+  color: white;
+  background-color: #F953C6;
+}
+
+#register{
+  border: 1px solid rgb(230, 230, 230);
+  background-color: transparent;
+}

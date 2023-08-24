@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="5Cas.html" method="get" autocomplete="off">
+    <fieldset>
+      <legend>Student</legend>
+
+      <label for="ime">Unesite ime:</label>
+      <input type="text" id="ime" name="ime"> <br> <br>
+  
+      <label for="prezime">Unesite prezime:</label>
+      <input type="text" id="prezime" name="prezime"> <br> <br>
+
+      <input type="radio" name="pol" id="pol" value="Muški">
+      <label for="Muški">Muški</label> <br>
+      <input type="radio" name="pol" id="pol" value="Ženski">
+      <label for="Ženski">Ženski</label> <br> <br>
+
+      <label for="datumrodjenja">Unesite datum rodjenja:</label>
+      <input type="date" name="datumrodjenja" id="datumrodjenja" max="2004-12-31" min="1970-01-01"> <br> <br>
+      
+      <label for="fakultet">Unesite fakultet:</label> <br>
+      <select name="fakultet" id="fakultet" size="3">
+        <option value="VTŠ">VTŠ</option>
+        <option value="Elektronski">Elektronski</option>
+        <option value="Mašinski">Mašinski</option>
+      </select> <br> <br>
+  
+      <textarea name="utisci" id="utisci" cols="50" rows="10"></textarea> <br> <br>
+      
+      <label for="smer">Unesite smer:</label>
+      <input list="smer">
+      <datalist id="smer">
+        <option value="Računarstvo">
+        <option value="Automatika">
+        <option value="Elektronika">
+      </datalist> <br> <br>
+
+      <label for="ispit">Prijavite ispit/e</label> <br>
+      <input type="checkbox" name="ispit" id="ispit" value="UUR">
+      <label for="UUR">UUR</label> <br>
+      <input type="checkbox" name="ispit" id="ispit" value="UUI">
+      <label for="UUI">UUI</label> <br>
+      <input type="checkbox" name="ispit" id="ispit" value="UUE">
+      <label for="UUE">UUE</label> <br> <br>
+
+      <label for="termin">Unesite termin ispita</label>
+      <input type="datetime-local" name="termin" id="termin"> <br> <br>
+      
+      <label for="sifra">Unesite lozinku:</label>
+      <input type="password" name="sifra" id="sifra"> <br> <br>
+
+      <label for="boja">Unesite željenu boju indeksa</label>
+      <input type="color" name="boja" id="boja"> <br> <br>
+
+      <input type="submit" value="Pošalji">
+      <!--<button type="submit">Pošalji</button>-->
+      <input type="reset" value="Resetuj">
+
+    </fieldset>
+
+  </form>
+
+  <br><a href="6Cas.html">SLEDECE PREDAVANJE</a> 
+  <br><a href="4Cas.html">PRETHODNO PREDAVANJE</a>
+  <br><a href="index.html">VRATI SE NAZAD</a>
+</body>
+</html>

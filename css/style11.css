@@ -1,0 +1,181 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: 15px;
+}
+.box-container{
+  display: flex;
+  margin-bottom: 60px;
+}
+.box-2{
+  display: none;
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
+}
+.box-container:hover .box-2{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+.box-2:hover{
+  visibility: hidden;
+  opacity: 0;
+}
+.box-3{
+  transition: all 1s;
+}
+.box-3:hover{
+  width: 100px;
+  height: 100px;
+  transition: all 1.5s;
+}
+.mainBtn{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 10px 20px;
+  transition: all 0.5s;
+}
+.mainBtn:hover{
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.mainBtn:active{
+  background-color: green;
+  color: #fff;
+  border: 1px solid green;
+}
+
+body{
+  height: 3000px;
+}
+#postitionRelative{
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  position: relative;
+  /*top: 40px;
+  left: 100px*/
+  right: 40px;
+  bottom: 100px;
+  margin-bottom: 100px;
+}
+#positionFixed{
+  background-color: coral;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  right: 50%;
+  /*top: 0px;*/
+  bottom: 0px;
+  z-index: 100;
+}
+
+#roditelj{
+  position: relative;
+  width: 600px;
+  height: 300px;
+  background-color: yellow;
+}
+#positionAbsolute{
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  color: #fff;
+
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+#userImg .img{
+  background-image: url('slike/profile1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  border-radius: 150px;
+}
+#userImg{
+  position: relative;
+  width: 70px;
+}
+#userImg .icon{
+  width: 30px;
+  height: 30px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 2px solid #fff;
+}
+.icon i{
+  font-size: 10px;
+}
+
+#stickySekcija{
+  height: 500px;
+  width: 100%;
+  background-color: darkcyan;
+}
+.stickyBox{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+
+  position: sticky;
+  top: 30px;
+}
+
+.inputGroup{
+  position: relative;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.inputGroup input{
+  padding: 10px;
+  border: none;
+  background-color: rgb(165, 160, 160);
+  border-radius: 10px;
+  color: black;
+  width: 250px;
+  padding-left: 35px;
+}
+input:focus{
+  outline: none;
+  background-color: rgb(224, 222, 222);
+}
+.inputGroup i{
+  position: absolute;
+  left: 10px;
+}
+
+#submenu{
+  visibility: hidden;
+  opacity: 0;
+}
+#menu li:hover #submenu{
+  visibility: visible;
+  opacity: 1;
+}

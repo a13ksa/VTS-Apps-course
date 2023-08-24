@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-color: #6A62D2;
+}
+
+.forma{
+  background-color:aliceblue;
+  width: 400px;
+  height: auto;
+  padding-bottom: 15px;
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+  margin-top: 170px;
+}
+
+.forma *{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.keep{
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.keep-me{
+  width: auto;
+  accent-color: #6A62D2;
+}
+
+.sign{
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+}
+
+input{
+  background-color: #E5E8ED;
+  padding: 10px;
+  border: none;
+}
+
+button{
+  background-color: aliceblue;
+  border: none;
+}
+
+.submit{
+  font-weight: 700;
+  letter-spacing: 3px;
+  background-color: #6A62D2;
+  border: none;
+  color: aliceblue;
+}

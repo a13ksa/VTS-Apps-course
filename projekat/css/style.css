@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+a{
+  text-decoration: none !important;
+}
+
+/*Boje ----------------
+Crvena - #F72249
+Teget - #0E1B4D
+Pozadina(siva) - #F7F7FD 
+Footer(crna) - #030919
+Copyright - #101522 
+----------------------*/
