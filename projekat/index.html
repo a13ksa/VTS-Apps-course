@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="css/hero-style.css">
     <link rel="stylesheet" href="css/about-event-style.css">
     <link rel="stylesheet" href="css/speakers-style.css">
+    <link rel="stylesheet" href="css/schedule-style.css">
+    <!--Boje ----------------
+        Crvena - #F72249
+        Teget - #0E1B4D
+        Pozadina(siva) - #F7F7FD 
+        Footer(crna) - #030919
+        Copyright - #101522 
+    ------------------------>
   </head>
   <body>
     <div class="nav-bg">
@@ -67,7 +75,7 @@
     </div>
     <div class="speakers">
       <div class="container">
-        <div class="speakers-title">
+        <div class="title">
           <h2>Event Speakers</h2>
           <h5>Here are some of our Speakers</h5>
           <div class="custom-hr"></div>
@@ -113,6 +121,133 @@
             <div class="card-content">
               <h6>Aleksa Zdraković</h6>
               <i>Backend Developer</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="schedule gray-background">
+      <div class="container">
+        <div class="title">
+          <h2>EVENT SCHEDULE</h2>
+          <h5>Here is our event schedule</h5>
+          <div class="custom-hr"></div>
+        </div>
+        <div class="col-12 d-flex flex-column align-items-center">
+          <ul class="nav days nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Day 1</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Day 2</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Day 3</button>
+            </li>
+          </ul>
+          <i class="text-center">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius necessitatibus voluptatem quis labore perspiciatis quia.</i>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex">
+                  <span class="time">10:00 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/1.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+                <li class="list-group-item d-flex">
+                  <span class="time">11:10 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/2.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+                <li class="list-group-item d-flex">
+                  <span class="time">13:00 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/3.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"><ul class="list-group list-group-flush">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex">
+                  <span class="time">10:00 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/3.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+                <li class="list-group-item d-flex">
+                  <span class="time">11:10 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/2.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+                <li class="list-group-item d-flex">
+                  <span class="time">13:00 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/1.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex">
+                  <span class="time">10:00 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/2.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+                <li class="list-group-item d-flex">
+                  <span class="time">11:10 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/1.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+                <li class="list-group-item d-flex">
+                  <span class="time">13:00 AM</span>
+                  <div class="picture">
+                    <img class="schedule-img" src="slike/speakers/3.jpg" alt="">
+                  </div>
+                  <section>
+                    <h6>Web Design <i class="no-bold">Aleksa Zdraković</i></h6>
+                    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloribus.</i>
+                  </section>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

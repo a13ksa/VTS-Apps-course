@@ -9,7 +9,28 @@
 a{
   text-decoration: none !important;
 }
-
+.title{
+  padding: 60px 0;
+}
+.title h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+.title h5{
+  font-weight: 400;
+  text-align: center;
+  color: #9195a2;
+  margin-bottom: 20px;
+}
+.title .custom-hr{
+  height: 5px;
+  width: 60px;
+  margin: auto;
+  background-color: #F72249;
+}
+.gray-background{
+  background-color: #f6f7fd !important; 
+}
 /*Boje ----------------
 Crvena - #F72249
 Teget - #0E1B4D

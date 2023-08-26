@@ -1,0 +1,67 @@
+.schedule .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #F72249;
+}
+.schedule{
+  padding-bottom: 60px;
+}
+.schedule .nav-link{
+  color: white;
+  background-color: #0E1B4D;
+  padding: 0.5rem 6rem;
+  border-radius: 200px;
+  font-weight: 600;
+}
+.schedule .days{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.list-group-item{
+  background-color: #f6f7fd;
+  transition: background-color 0.5s ease;
+}
+.list-group-item:hover{
+  background-color: white;
+}
+.schedule .no-bold{
+  font-weight: 400;
+  color: gray;
+}
+.list-group-item{
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.list-group-item .time{
+  margin-right: 4rem;
+}
+.list-group-item .picture{
+  width: 60px;
+  height: 60px;
+}
+.list-group-item img{
+  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.list-group-item section{
+  margin-left: 1rem;
+}
+.list-group-item h6{
+  margin-bottom: .2rem;
+}
+.schedule .text-center{
+  width: 75%;
+  margin: .5rem 0;
+}
+.schedule .tab-content{
+  width: 75%;
+}
+@media only screen and (max-width: 1000px) {
+  .schedule .tab-content {
+    width: 100% !important;
+  }
+}

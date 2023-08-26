@@ -1,21 +1,5 @@
 .speakers{
-  padding-top: 60px;
-}
-.speakers-title h2{
-  text-transform: uppercase;
-  text-align: center;
-}
-.speakers-title h5{
-  font-weight: 400;
-  text-align: center;
-  color: #9195a2;
-  margin-bottom: 20px;
-}
-.speakers-title .custom-hr{
-  height: 5px;
-  width: 60px;
-  margin: auto;
-  background-color: #F72249;
+  padding-bottom: 60px;
 }
 .speakers img{
   width: 100%;
