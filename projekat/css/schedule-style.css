@@ -64,4 +64,11 @@
   .schedule .tab-content {
     width: 100% !important;
   }
+  .list-group-item .time{
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+  }
+  .list-group .list-group-item{
+    flex-direction: column;
+  }
 }

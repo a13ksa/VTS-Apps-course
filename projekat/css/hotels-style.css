@@ -1,0 +1,13 @@
+.hotel h3{
+  margin: 1rem;
+  margin-bottom: 0rem;
+}
+.hotel .stars{
+  margin: 0rem 1rem;
+  color: #DAA520;
+}
+.hotel p{
+  padding: 1rem;
+  font-style: italic;
+  margin-bottom: 0;
+}

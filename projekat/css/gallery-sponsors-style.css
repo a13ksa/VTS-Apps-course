@@ -1,0 +1,10 @@
+.gallery img{
+  width: 100%;
+}
+.sponsors img{
+  width: 100%;
+} 
+.sponsors .logo{
+  background-color: white;
+  padding: 2rem;
+}
