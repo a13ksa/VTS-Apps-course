@@ -1,0 +1,63 @@
+.gallery img{
+  width: 100%;
+}
+.sponsors img{
+  width: 100%;
+} 
+.sponsors .logo{
+  background-color: white;
+  padding: 2rem;
+}
+.faq-accordion{
+  width: 75%;
+  margin: auto;
+}
+.accordion-button{
+  font-size: large;
+}
+@media only screen and (max-width: 700px) {
+  .faq-accordion{
+    width: 100%;
+  }
+}
+.accordion-button::before {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  content: "";
+  background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+  margin-right: 1rem;
+}
+.accordion-button::after{
+  display: none;
+}
+.newsletter{
+  background-image: url(../slike/subscribe-bg.jpg);
+  color: white;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem 0;
+  z-index: 1;
+  background-attachment: fixed;
+}
+.newsletter-dark{
+  width: 100%;
+  height: 100%;
+  background-color: #0E1B4D;
+  opacity: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.newsletter-content{
+  z-index: 2;
+}
+.newsletter input{
+  border-radius: 100px;
+}
