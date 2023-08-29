@@ -1,0 +1,7 @@
+.tickets .cards{
+  display: flex;
+  gap: 1rem;
+}
+.tickets .card{
+  flex: 1;
+}

@@ -15,11 +15,6 @@
 .accordion-button{
   font-size: large;
 }
-@media only screen and (max-width: 700px) {
-  .faq-accordion{
-    width: 100%;
-  }
-}
 .accordion-button::before {
   flex-shrink: 0;
   width: var(--bs-accordion-btn-icon-width);
@@ -42,8 +37,8 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 2rem 0;
-  z-index: 1;
   background-attachment: fixed;
+  z-index: 1;
 }
 .newsletter-dark{
   width: 100%;
@@ -53,11 +48,42 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
-}
-.newsletter-content{
   z-index: 2;
 }
-.newsletter input{
+.newsletter-content{
+  position: relative;
+  z-index: 3;
+}
+.newsletter .newsletter-form{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+.newsletter .newsletter-input{
+  flex: 9;
+  padding: .3rem 1rem;
   border-radius: 100px;
+}
+.newsletter .newsletter-btn{
+  flex: 3;
+  padding: .3rem;
+  border-radius: 100px;
+  background-color: #F72249;
+  border: 3px solid #F72249;
+  color: white !important;
+  font-weight: 500;
+  transition: background-color 0.5s ease;
+}
+.newsletter-btn:hover{
+  background-color: transparent;
+}
+@media only screen and (max-width: 700px) {
+  .faq-accordion{
+    width: 100%;
+  }
+  .newsletter .newsletter-form{
+    width: 75%;
+    flex-direction: column;
+  }
 }
